@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AliceGeneratorBundle.iml" filepath="$PROJECT_DIR$/.idea/AliceGeneratorBundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../alice-generator/.idea/alice-generator.iml" filepath="$PROJECT_DIR$/../alice-generator/.idea/alice-generator.iml" />
+    </modules>
+  </component>
+</project>
