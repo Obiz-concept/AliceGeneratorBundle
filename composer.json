@@ -11,21 +11,27 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": ">=8.2",
         "obiz-concept/alice-generator": "dev-master",
         "doctrine/orm": "~2.4",
         "doctrine/doctrine-bundle": "^2",
-        "symfony/finder": "^3.0|^4.0",
-        "symfony/validator": "^3.0|^4.0",
-        "symfony/console": "^3.0|^4.0",
-        "symfony/framework-bundle": "^3.0|^4.0",
-        "symfony/yaml": "^3.0|^4.0"
+        "symfony/finder": "^3.0||^4.0||^5.0||^6.0||^7.0",
+        "symfony/validator": "^3.0||^4.0||^5.0||^6.0||^7.0",
+        "symfony/console": "^3.0||^4.0||^5.0||^6.0||^7.0",
+        "symfony/framework-bundle": "^3.0||^4.0||^5.0||^6.0||^7.0",
+        "symfony/yaml": "^3.0||^4.0||^5.0||^6.0||^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.1",
-        "symfony/phpunit-bridge": "^3.0|^4.0",
-        "matthiasnoback/symfony-dependency-injection-test": "^3.0"
+        "phpunit/phpunit": "^9.0||^10.0||^11.0",
+        "symfony/phpunit-bridge": "^3.0||^4.0",
+        "matthiasnoback/symfony-dependency-injection-test": "^3.0||^5.1"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Obiz-concept/alice-generator"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
